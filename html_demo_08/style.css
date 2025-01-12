@@ -1,0 +1,29 @@
+
+        .custom-checkbox {
+            display: inline-block;
+            width: 16px; /* Equal width */
+            height: 16px; /* Equal height */
+            border: 1px solid black; /* Black border */
+            background-color: #1ac40c;
+            position: relative;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-checkbox::after {
+            content: "✔";
+            color: white; /* White tick mark */
+            font-size: 12px; /* Adjusted size for the tick mark */
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+
+        .custom-checkbox.checked::after {
+            display: block;
+        }
+
+       
+   
