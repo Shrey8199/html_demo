@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#main{
+    margin: 5px;
+    height: 715px;
+    width: 99%;
+    background-color: #87ceea;
+    border: 2px solid #010080;
+}
+.cyan{
+    height: 5.55%; width: 4%; float: left;
+    color: wheat;
+}
+.blue{
+    height: 5.55%; width: 4%; float: left; background-color: #010080;
+    color: wheat;
+}
+.orange{
+    height: 5.55%; width: 4%; float: left; background-color: #fea500;
+    color: wheat;
+}

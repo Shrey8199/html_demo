@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    /* Light background for better shadow visibility */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* First Navbar  */
+#nav1 {
+    height: 52px;
+    width: 100%;
+    float: left;
+    background-color: #a60016;
+}
+
+#nav1 #log_img {
+    height: 45.6px;
+    width: 300px;
+    padding: 7px;
+    margin-left: 210px;
+    float: left;
+}
+
+#nav1 ul {
+    display: flex;
+}
+
+#nav1 ul,
+li {
+    justify-content: center;
+    list-style-type: none;
+}
+
+#nav1 select {
+    padding: 14px;
+    border: none;
+    margin-right: 30px;
+    color: white;
+    background-color: #a60016;
+    font-size: large;
+}
+
+#nav1 select:hover {
+    background-color: #15191c;
+}
+
+/* shrey */
+/* Second Navbar  */
+#nav2 {
+    height: 32px;
+    width: 100%;
+    float: left;
+
+
+}
+
+#nav2 ul {
+    text-align: center;
+}
+
+#nav2 li {
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 14px;
+    color: #a60016;
+}
+
+/* Content of the news  */
+#left_side {
+    width: 14%;
+    height: 2405px;
+    float: left;
+}
+
+#right_side {
+    width: 14%;
+    height: 2405px;
+    float: left;
+}
+
+/* Top News  */
+#content {
+    width: 72%;
+    height: 2405px;
+    float: left;
+
+}
+
+#content #c1 {
+    width: 40%;
+    height: 440px;
+    float: left;
+
+}
+
+#content #c1 img {
+    width: 410px;
+    height: 240px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#content #c1 h2 {
+    color: #a60016;
+}
+
+#content #c1 p {
+    font-weight: bold;
+}
+
+#content #c2 {
+    width: 29%;
+    height: 430px;
+    float: left;
+
+    padding: 4px;
+}
+
+/* Small News */
+#content #c2 .s1 {
+    width: 47%;
+    height: 18%;
+    float: left;
+
+    margin-top: 18px;
+}
+
+#content #c2 .s1 img {
+    width: 140px;
+    height: 77px;
+    /* padding: 2px; */
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-left: 2px;
+}
+
+#content #c2 .s2 {
+    width: 53%;
+    height: 18%;
+    float: left;
+
+    margin-top: 18px;
+}
+
+#content #c2 .s2 p {
+    font-size: 15px;
+}
+
+#content #c3 {
+    width: 30%;
+    height: 440px;
+    float: left;
+
+}
+
+#content #c3 .s1 {
+    width: 47%;
+    height: 18%;
+    float: left;
+
+    margin-top: 16px;
+}
+
+#content #c3 .s1 img {
+    float: left;
+    width: 140px;
+    height: 77px;
+    /* padding: 2px; */
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-left: 2px;
+}
+
+#content #c3 .s2 {
+    width: 52%;
+    height: 18%;
+    float: left;
+
+    margin-top: 16px;
+}
+
+#content #c3 .s2 p {
+    font-size: 15px;
+}
+
+/* राजकारण */
+#content .hori {
+    height: 40px;
+    width: 100%;
+    float: left;
+
+    color: #a60016;
+}
+
+#content #r1 {
+    width: 30%;
+    height: 680px;
+    float: left;
+
+
+}
+
+#content #r1 img {
+    width: 320px;
+    height: 180px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#content #r1 p {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+
+#content #r2 {
+    width: 30%;
+    height: 680px;
+    float: left;
+
+}
+
+#content #r2 img {
+    width: 320px;
+    height: 180px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#content #r2 p {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+#content #r3 {
+    width: 37%;
+    height: 680px;
+    float: left;
+
+}
+
+#content #r3 .b_img {
+    width: 40%;
+    height: 90px;
+    float: left;
+
+
+
+}
+
+#content #r3 .b_img img {
+    width: 150px;
+    height: 80px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    float: left;
+    margin-left: 4px;
+}
+
+#content #r3 .b_des {
+    width: 60%;
+    height: 90px;
+    float: left;
+
+
+}
+
+#content #r3 .b_des p {
+    font-size: 15px;
+}
+
+/* महाराष्ट्र */
+
+#maharashtra {
+    height: 40px;
+    width: 100%;
+    float: left;
+
+    color: #a60016;
+}
+
+#maha_row {
+    width: 100%;
+    height: 230px;
+    float: left;
+
+}
+
+#maha_row .row_con {
+    width: 24.7%;
+    height: 100%;
+    float: left;
+
+    margin: 1px;
+}
+
+#maha_row .row_con img {
+    width: 255px;
+    height: 140px;
+}
+
+#maha_row .row_con p {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px;
+}
+
+/* जॉब्स आर्थिक कृषी */
+
+#three_fields {
+    width: 100%;
+    height: 650px;
+    float: left;
+
+    margin-top: 12px;
+}
+
+#three_fields .c1 {
+    width: 33.30%;
+    height: 100%;
+    float: left;
+
+}
+
+#three_fields .c1 img {
+    width: 350px;
+    height: 200px;
+    float: left;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#three_fields .c1 p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+#three_fields .c2 {
+    width: 33.30%;
+    height: 100%;
+    float: left;
+
+}
+
+#three_fields .c2 img {
+    width: 350px;
+    height: 200px;
+    float: left;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#three_fields .c2 p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#three_fields .c3 {
+    width: 33.30%;
+    height: 100%;
+    float: left;
+
+}
+
+#three_fields .c3 img {
+    width: 350px;
+    height: 200px;
+    float: left;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#three_fields .c3 p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.common_three {
+    width: 100%;
+    height: 90px;
+    float: left;
+
+}
+
+.common_three .p1 {
+    width: 52%;
+    height: 100%;
+    float: left;
+
+}
+
+.common_three .p1 #p1 {
+    font-weight: lighter;
+}
+
+.common_three .p2 {
+    width: 48%;
+    height: 100%;
+    float: left;
+
+}
+
+.common_three .p2 #img1 {
+    width: 140px;
+    height: 80px;
+    float: left;
+}
+
+/* लाईफस्टाईल */
+#lifestyle {
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+    float: left;
+
+    color: #a60016;
+}
+
+#life_row {
+    width: 100%;
+    height: 230px;
+    float: left;
+
+}
+
+#life_row .row_con {
+    width: 24.7%;
+    height: 100%;
+    float: left;
+
+    margin: 1px;
+}
+
+#life_row .row_con img {
+    width: 255px;
+    height: 140px;
+}
+
+#life_row .row_con p {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px;
+}
+
+
+
+/* footer  */
+
+footer {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #15191c;
+    color: white;
+
+}
+
+footer #f {
+    width: 80%;
+    margin-top: 8px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
