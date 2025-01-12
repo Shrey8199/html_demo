@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beautiful and Simple Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("fw1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: "Times New Roman", Times, serif;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+      }
+      h1.logo {
+        font-size: 1.5rem;
+        color: black;
+      }
+      nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      nav li {
+        list-style-type: none;
+      }
+      nav a {
+        color: black;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      nav a:hover {
+        color: yellow;
+      }
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 200px 20px 0;
+      }
+      main h1 {
+        font-size: 2.5rem;
+        color: black;
+      }
+      main p {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: 5px;
+      }
+      .button-links {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+      }
+      .button-links a {
+        color: yellow;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      .button-links a:hover {
+        color: white;
+      }
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+        main {
+          margin-top: 150px;
+        }
+        main h1 {
+          font-size: 2rem;
+        }
+        main p {
+          font-size: 1rem;
+        }
+        .button-links {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      @media (max-width: 480px) {
+        main h1 {
+          font-size: 1.5rem;
+        }
+        main p {
+          font-size: 0.9rem;
+        }
+        .button-links a {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">LOGO</h1>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">JOIN US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>BEAUTIFUL AND SIMPLE WEBSITE</h1>
+      <p><i>Using HTML only</i></p>
+      <div class="button-links">
+        <a href="#">Search</a>
+        <a href="#">Back</a>
+        <a href="#">Setting</a>
+      </div>
+    </main>
+  </body>
+</html>
